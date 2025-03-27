@@ -32,4 +32,15 @@ frontend/yarn-error.log*
 
 # OS
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# AWS credentials
+.aws/
+aws.json
+
+# CloudFormation outputs
+cloudformation-output.json
+
+# Environment variables
+.env.production
+.env.development.local 
